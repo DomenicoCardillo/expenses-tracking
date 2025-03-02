@@ -1,4 +1,4 @@
-# Expense Tracking
+# Expenses Tracking
 
 Telegram Bot for tracking expenses and incomes in Google Spreadsheet.
 
@@ -7,7 +7,7 @@ Supports *Italian* and *English* (feel free to make a PR to support other langua
 
 #### Additional Features
 - **/lookup** – Retrieve information about your expenses and incomes, filtering by category, account, and time range.
-- **/monthly_stats** – View your monthly expense and income statistics.
+- **/monthly_stats** – View your monthly expenses and income statistics.
 - **/accounts** – Check your account balances.
 
 ## 🚀 Deploy to Vercel
