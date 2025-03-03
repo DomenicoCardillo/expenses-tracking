@@ -125,7 +125,7 @@ npm run build:serve
 
 ## FAQs
 #### Why Use Google Sheets as a Database?
-Beyond the bot itself, I wanted a simple and intuitive way to add new entries (expenses/incomes). Google Sheets provides a fast and flexible solution for this, allowing me (and other users) to easily add new rows without the need for a custom interface that requires maintenance. Additionally, I can access all the data in real time, also offline, leverage pivot tables for insights, and customize the interface to fit my needs.
+I can access all my data from any device, even offline, add entries directly to the sheets when I'm home, create pivot tables for deeper insights, and customize the interface to suit my needs—all without maintaining a custom UI.
 
 #### Can I access and use your Pivot Tables?
 Yes, drop me a message to [domenico.cardillo@outlook.com](mailto:domenico.cardillo@outlook.com) and I'll be happy to share a GSheet with Pivot Tables.
