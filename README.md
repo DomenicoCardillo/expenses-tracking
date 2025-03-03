@@ -39,7 +39,7 @@ Supports *Italian* and *English* (feel free to make a PR to support other langua
 3. Save your spreadsheet id, you can get it from the Google Sheet URL, https://docs.google.com/spreadsheets/d/{SHEET_DB_ID}/edit
 
 #### 📌 Spreadsheet Breakdown:
-- **DB** – Stores all transactions.
+- **DB** – Stores all transactions. (Remove test entries)
 - **{CHAT_ID}_ACCOUNTS** – ***Required step*** – Replace `{CHAT_ID}` with your actual chat ID (e.g., `12345678_ACCOUNTS`). Each user can have a custom account sheet.
 - **EXPENSE_CATEGORIES** – Edit and add your expense categories.
 - **INCOME_CATEGORIES** – Edit and add your income categories.
@@ -122,6 +122,13 @@ npm run build:serve
 
 ## TODOs:
 - /delete_last command, to delete the last inserted row (if date is today)
+
+## FAQs
+#### Why Use Google Sheets as a Database?
+Beyond the bot itself, I wanted a simple and intuitive way to add new entries (expenses/incomes). Google Sheets provides a fast and flexible solution for this, allowing me (and other users) to easily add new rows without the need for a custom interface that requires maintenance. Additionally, I can access all the data in real time, also offline, leverage pivot tables for insights, and customize the interface to fit my needs.
+
+#### Can I access and use your Pivot Tables?
+Yes, drop me a message to [domenico.cardillo@outlook.com](mailto:domenico.cardillo@outlook.com) and I'll be happy to share a GSheet with Pivot Tables.
 
 ## Feedback
 If you have any feedback, feel free to open an Issue, submit a PR, or reach out at [domenico.cardillo@outlook.com](mailto:domenico.cardillo@outlook.com).
